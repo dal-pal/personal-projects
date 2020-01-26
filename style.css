@@ -1,0 +1,22 @@
+body {
+    font-size: 14px;
+    color: navy;
+    background-color: cornsilk;
+}
+
+h1 {
+    color: darkslategrey;
+    background: darkviolet;
+}
+h2 {
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+strong {
+    font-style: italic;
+    text-transform: uppercase;
+}

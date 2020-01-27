@@ -33,3 +33,21 @@ p {
     line-height: 1.5;
     text-align: center;
 }
+
+#test-1 {
+    background-color: firebrick;
+    padding: 20px;
+}
+
+.test-2 {
+    background-color: forestgreen;
+    padding: 5px
+}
+
+.img {
+    background-color: gold;
+}
+
+.img:hover {
+    background-color: green;
+}

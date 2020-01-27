@@ -1,0 +1,38 @@
+.googleLogo {
+    display: block;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding-bottom: 10px;
+}
+
+.googleSearchBar {
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.googleSearchButton {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    position: absolute;
+    left: 350px;
+    border-radius: 5px;
+    background-color: white;
+    width: 200px;
+}
+
+.googleLuckyButton {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    position: absolute;
+    right: 350px;
+    border-radius: 5px;
+    background-color: white;
+    width: 200px;
+}

@@ -19,6 +19,10 @@
 
 }
 
+.googleSearchBar:hover {
+    background-color: green;
+}
+
 .googleSearchButton {
     align-items: flex-start;
     text-align: center;

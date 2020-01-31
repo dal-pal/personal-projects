@@ -1,0 +1,8 @@
+[ {
+  "name" : "Test autorefresh",
+  "description" : "Test autorefresh",
+  "data" : "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n<meta charset=\"utf-8\">\r\n<title>Test Refresh</title>\r\n<script>\r\n    randomNumber = () => {\r\n    let num = (Math.random() * 10)\r\n    return num\r\n}\r\n    setInterval(function(){ alert(randomNumber()); }, 3000);\r\n</script>\r\n</head>\r\n<body>\r\n</body> \r\n</html>",
+  "active" : true,
+  "note" : "",
+  "type" : "Page"
+} ]

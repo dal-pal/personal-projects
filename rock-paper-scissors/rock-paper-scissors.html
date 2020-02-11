@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+
+const hands = ['rock','paper','scissors']
+let input = prompt('Rock, Paper, Scissors!');
+
+computerPlay = () => {
+    let min = 0
+    let max = 3
+    let random = Math.floor(Math.random() * (max - min));
+
+    return hands[random];
+}
+
+const computerSelect = (computerPlay())
+
+
+userPlay = (player,computer) => {
+    
+    let playerSelection = input.toLowerCase();
+
+    if (computerSelect === playerSelection) {
+        return 'Tie! Go again!'
+    } else if (computerSelect === 'rock' && playerSelection == 'paper') {
+        return 'You win! Paper beats rock!'
+    } else if (computerSelect === 'rock' && playerSelection == 'scissors') {
+        return 'You lose! Rock beats scissors!'
+    } else if (computerSelect === 'paper' && playerSelection == 'rock') {
+        return 'You lose! Paper beats rock!'        
+    } else if (computerSelect === 'paper' && playerSelection == 'scissors') {
+        return 'You win! Scissors beats paper!'
+    } else if (computerSelect === 'scissors' && playerSelection == 'rock') {
+        return 'You win! Rock beats scissors!'
+    } else if (computerSelect === 'rock' && playerSelection == 'scissors') {
+        return 'You lose! Rock beats scissors!'
+    } else {return null}
+
+}
+
+console.error(userPlay(input,computerSelect));
+
+// game = () => {
+//     for(i = 0; i < 6; i++) {
+//         userPlay(input,computerSelect);
+//     }
+// }
+
+// console.log(game());
+
+</script>
+
+</body>
+</html>

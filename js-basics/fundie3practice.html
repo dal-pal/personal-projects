@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+
+    add7 = (num1) => {
+        return (parseInt(num1) + 7)
+    }
+
+    let num1 = prompt('Number 1');
+
+    console.log(add7(num1));
+
+    multiply = (num2,num3) => {
+        return (num2 * num3)
+    };
+
+    let num2 = prompt('Number 2');
+    let num3 = prompt('Number 3');
+
+    console.log(multiply(num2,num3));
+
+    capitalize = (name) => {
+        let firstLetter = name.slice(0,1);
+        name.toLowerCase();
+        let finishedName = name.replace(name[0],firstLetter.toUpperCase())
+        return finishedName
+    }
+
+    let name = prompt('Name?')
+
+    console.log(capitalize(name));
+
+    lastLetter = (lastname) => {
+        let getLast = lastname.length
+        return lastname[(getLast - 1)];
+    }
+
+    let lastname = prompt('Last name?')
+
+    console.log(lastLetter(lastname))
+
+</script>
+
+</body>
+</html>
